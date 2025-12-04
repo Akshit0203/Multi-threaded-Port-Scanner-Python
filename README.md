@@ -5,7 +5,7 @@ Scans ports from **1 to 65535** concurrently and displays open ports.
 
 ---
 
-## 🚀 Features
+## Features
 - Multi-threaded scanning for high speed
 - Scans full port range (1–65535)
 - Graceful exit on `Ctrl + C`
@@ -14,14 +14,14 @@ Scans ports from **1 to 65535** concurrently and displays open ports.
 
 ---
 
-## 📦 Requirements
+## Requirements
 - Python 3.x
 
 No external modules required.
 
 ---
 
-## 🕹 Usage
+## Usage
 
 ### Run the script:
 ```bash
@@ -33,7 +33,7 @@ Example:
 or
 ```python scanner.py google.com```
 
-### 📌 Output
+### Output
 
 ```
 --------------------------------------------------
@@ -45,7 +45,7 @@ Port 443 is open
 Scan completed!
 ```
 
-### 🧠 How it Works
+### How it Works
 - Creates one thread per port to increase speed
 - Detects successful connections (result == 0)
 - Prints open ports to the terminal
