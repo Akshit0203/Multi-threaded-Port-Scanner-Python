@@ -50,6 +50,3 @@ Creates one thread per port to increase speed
 Detects successful connections (result == 0)
 Prints open ports to the terminal
 
-### 🤝 Contributing
-Pull requests are welcome! For major changes, open an issue first to discuss what you would like to modify.
-
