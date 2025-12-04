@@ -26,13 +26,14 @@ No external modules required.
 ### Run the script:
 ```bash
 python scanner.py <target>
+```
 
 Example:
-python scanner.py 192.168.1.10
+```python scanner.py 192.168.1.10```
 or
-python scanner.py google.com
+```python scanner.py google.com```
 
-📌 Output
+### 📌 Output
 --------------------------------------------------
 Scanning target 142.250.182.14
 Time started: 2025-12-04 14:32:10.923423
@@ -41,11 +42,11 @@ Port 80 is open
 Port 443 is open
 Scan completed!
 
-🧠 How it Works
+### 🧠 How it Works
 Creates one thread per port to increase speed
 Detects successful connections (result == 0)
 Prints open ports to the terminal
 
-🤝 Contributing
+### 🤝 Contributing
 Pull requests are welcome! For major changes, open an issue first to discuss what you would like to modify.
 
